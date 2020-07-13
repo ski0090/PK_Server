@@ -1,0 +1,21 @@
+﻿빌드 시작: 2020-07-13 오전 10:37:21
+     1>2 노드의 "D:\Person_git\PK_Server\PK_Server\PK_Server.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Person_git\PK_Server\PK_Sock\Include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\person_git\pk_server\pk_sock\include\udpsocket.h(4): warning C4275: DLL 인터페이스가 아닌 class 'BaseSocket'이(가) DLL 인터페이스 class 'UDPSocket'의 기본으로 사용되었습니다.
+                 d:\person_git\pk_server\pk_sock\include\basesocket.h(3) : 'BaseSocket' 선언을 참조하십시오.
+                 d:\person_git\pk_server\pk_sock\include\udpsocket.h(3) : 'UDPSocket' 선언을 참조하십시오.
+     1>d:\person_git\pk_server\pk_sock\include\tcpsocket.h(4): warning C4275: DLL 인터페이스가 아닌 class 'BaseSocket'이(가) DLL 인터페이스 class 'TCPSocket'의 기본으로 사용되었습니다.
+                 d:\person_git\pk_server\pk_sock\include\basesocket.h(3) : 'BaseSocket' 선언을 참조하십시오.
+                 d:\person_git\pk_server\pk_sock\include\tcpsocket.h(3) : 'TCPSocket' 선언을 참조하십시오.
+     1>d:\person_git\pk_server\pk_sock\include\memorystream.h(22): warning C4251: 'CMemoryStream::m_strBuffer' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'CMemoryStream'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+     1>d:\person_git\pk_server\pk_sock\include\memorystream.h(23): warning C4251: 'CMemoryStream::m_strLea_Buffer' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'CMemoryStream'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Person_git\PK_Server\Debug\PK_Server.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Person_git\PK_Server\PK_Sock\Lib /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" PK_Socket.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Person_git\PK_Server\Debug\PK_Server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Person_git\PK_Server\Debug\PK_Server.lib" /MACHINE:X86 Debug\main.obj
+         PK_Server.vcxproj -> D:\Person_git\PK_Server\Debug\PK_Server.exe
+     1>"D:\Person_git\PK_Server\PK_Server\PK_Server.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.98
